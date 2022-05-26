@@ -572,10 +572,10 @@ img {
 .hero {
   padding-top: 33px;
   padding-bottom: 536px;
-  background-image: url("../img/hero-background.png");
+  background-image: url("../img/line.svg"), url("../img/hero-background.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: calc(50% + 0px) bottom;
+  background-size: 30px 108px, contain;
+  background-position: calc(50% + 0px) calc(50% + 10px), calc(50% + 0px) bottom;
   background-color: #4ABDF2;
 }
 
@@ -593,10 +593,10 @@ img {
   .hero {
     padding-top: 56px;
     padding-bottom: 296px;
-    background-image: url("../img/hero-background.png");
+    background-image: url("../img/line.svg"), url("../img/hero-background.png");
     background-repeat: no-repeat;
-    background-size: 850px;
-    background-position: calc(50% + 0px) bottom;
+    background-size: 30px 108px, 850px;
+    background-position: calc(50% + 0px) calc(50% - 20px), calc(50% + 0px) bottom;
     background-color: #4ABDF2;
   }
   .hero__heading {
